@@ -218,10 +218,23 @@ nav {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 43px;
+  }
+
+.blue p {
+  color: #FFFFFF;
 }
 
-.boyhands, .forkids, .girlhands, .teacher, .classroom, .forteachers, .labworker1, .researchers, .labworker2 {
-  width: 600px;
+.green {
+  background-color: #74FAC8;
+  height: 400px;
+  width: device-width;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 43px;
+}
+
+.green h2, p {
+  color: #3F4756;
 }
 
 .pink {
@@ -233,15 +246,16 @@ nav {
   grid-gap: 43px;
   overflow: hidden;
 }
-  
-.green {
-  background-color: #74FAC8;
-  height: 400px;
-  width: device-width;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 43px;
+
+.pink p {
+  color: #FFFFFF;
 }
+
+.boyhands, .forkids, .girlhands, .teacher, .classroom, .forteachers, .labworker1, .researchers, .labworker2 {
+  width: 600px;
+}
+
+  
 
 /* end of main*/
 

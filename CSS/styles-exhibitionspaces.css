@@ -10,6 +10,13 @@ h1 {
     color: #FFFFFF;
 }
 
+h2 {
+  font-family: Inter;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #FFFFFF;
+}
+
 p {
     font-family: Inter;
     font-size: 15px;
@@ -188,32 +195,53 @@ nav {
   margin-top: 50px;
   width: device-width;
   display: grid;
-  grid-template-rows: auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
   grid-gap: 50px;
+}
+
+.cosmos, .lunar, .skeletons, .head, .labwork2, .evolution, .cosmology, .bioandmed {
+  width: 600px;
 }
 
 .grey {
   background-color: #3F4756;
   height: 400px;
   width: device-width;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 43px;
+  overflow: hidden;
 }
 
 .blue{
   background-color: #2A79C7;
   height: 400px;
   width: device-width;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 43px;
+  overflow: hidden;
 }
+
 
 .pink {
   background-color: #D14699;
   height: 400px;
   width: device-width;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 43px;
+  overflow: hidden;
 }
   
 .green {
   background-color: #74FAC8;
   height: 400px;
   width: device-width;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 43px;
+  overflow: hidden;
 }
 
 /* end of main*/
