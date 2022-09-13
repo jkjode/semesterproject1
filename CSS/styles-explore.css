@@ -184,13 +184,44 @@ nav {
 /* end of header */
 
 /* MAIN */
+.main {
+  margin-top: 50px;
+  width: device-width;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-gap: 50px;
+}
+
+.grey {
+  background-color: #3F4756;
+  height: 400px;
+  width: device-width;
+}
+
+.blue{
+  background-color: #2A79C7;
+  height: 400px;
+  width: device-width;
+}
+
+.pink {
+  background-color: #D14699;
+  height: 400px;
+  width: device-width;
+}
+  
+.green {
+  background-color: #74FAC8;
+  height: 400px;
+  width: device-width;
+}
 
 /* end of main*/
 
 /* FOOTER */
 .footer {
-    background-color: #3F4756;
-    width: 200px;
-    height: 200px;
-    margin-top: 10px;
+  background-color: #3F4756;
+  width: device-width;
+  height: 200px;
+  margin-top: 10px;
 }
