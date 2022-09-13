@@ -195,22 +195,74 @@ nav {
 
 .grey {
   background-color: #3F4756;
-  height: 400px;
+  height: 500px;
 }
+
+.grey h2 {
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 35px;
+  margin-left: 200px;
+  line-height: smaller;
+  margin-top: 100px;
+  }
+
+.grey p {
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 15px;
+  margin-left: 200px;
+  width: 450px;
+}
+
 .blue{
   background-color: #2A79C7;
-  height: 400px;
+  height: 500px;
 }
+
+.blue h2 {
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 35px;
+  margin-left: 200px;
+  line-height: smaller;
+  margin-top: 100px;
+}
+
+.blue p {
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 15px;
+  margin-left: 200px;
+  width: 450px;
+}
+
 .pink {
   background-color: #D14699;
-  height: 400px;
+  height: 500px;
 }
   
 .green {
   background-color: #74FAC8;
-  height: 400px;
+  height: 500px;
 }
 
+.green h2 {
+  font-family: Inter;
+  color: #3F4756;
+  font-size: 35px;
+  line-height: smaller;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.green p {
+  color: #3F4756;
+  font-family: Inter;
+  font-size: 15px;
+  margin-left: 200px;
+  width: 450px;
+}
 
 /* end of main*/
 
@@ -218,6 +270,6 @@ nav {
 .footer {
     background-color: #3F4756;
     width: device-width;
-    height: 100px;
+    height: 50px;
     margin-top: 10px;
 }

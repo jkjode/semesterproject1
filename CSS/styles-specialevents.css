@@ -149,7 +149,7 @@ nav {
     
     /* Change the background color of the dropdown button when the dropdown content is shown */
     .dropdown:hover .dropbtn {background-color: #FFFFFF00;}
-  }
+  
   
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
@@ -211,12 +211,26 @@ nav {
   height: 400px;
 }
 
+.grey h2, .blue h2, .pink h2 {
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 50px;
+}
+
+.green h2 {
+  font-size: 50px;
+}
+.green p {
+  color: #3F4756;
+  font-family: Inter;
+}
+
 /* end of main*/
 
 /* FOOTER */
 .footer {
   background-color: #3F4756;
   width: device-width;
-  height: 200px;
+  height: 50px;
   margin-top: 10px;
 }
