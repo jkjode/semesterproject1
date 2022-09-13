@@ -38,7 +38,7 @@ p {
     width: 750px;
 }
 
-.decor {
+/*.decor {
     height: 175px;
     width: 401px;
     background-color: #d1d1d1AA;
@@ -50,7 +50,7 @@ p {
 }
 
 
-/*.headerblue {
+.headerblue {
     align-items: ;
     width: 400px;
     height: 58px;
