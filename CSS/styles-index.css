@@ -21,6 +21,7 @@ p {
     background-color: #3F4756;
     width: device-width;
     height: 175px;
+    
     }
 
 .indexlogo {
@@ -37,42 +38,39 @@ p {
     width: 750px;
 }
 
+.decor {
+    height: 175px;
+    width: 401px;
+    background-color: #d1d1d1AA;
+    border: solid orange 1px;
+    position: absolute;
+    margin-top: -265px;
+    margin-left: 1485px;
+    z-index: 7;
+}
+
+
 /*.headerblue {
-    position: relative;
+    align-items: ;
     width: 400px;
     height: 58px;
-    position: relative;
     color: #2A79C7;
-    margin-left: 500px;
-    margin-top: -200px;
-    z-index: 2;
 }
 
 .headergreen {
-    position: relative;
     color: #74FAC8;
     width: 350px;
     height: 58px;
-    margin-left: 650px;
-    margin-top: 50px;
-    z-index: 2;
 }
 
 .headerpink {
-    position: relative;
     color: #D14699;
     width: 300px;
     height: 58px;
-    margin-left: 750px;
-    margin-top: 100px;
-    z-index: 2;
-    }
-*/
+    }*/
+
 
 nav {
-    /*position: relative;
-    width: device-width;
-    height: 50px;*/
     height: 200px;
     width: 500px;
     margin-top: -150px;
@@ -92,7 +90,7 @@ nav {
     text-align: right;
     font-family: Inter;
     font-weight: bold;
-            
+    z-index: 1;            
   }
   
   /* The container <div> - needed to position the dropdown content */
@@ -110,6 +108,7 @@ nav {
       padding: 16px;
       font-size: 35px;
       border: none;
+      z-index: 1;
     }
     
     /* The container <div> - needed to position the dropdown content */
@@ -149,7 +148,7 @@ nav {
     
     /* Change the background color of the dropdown button when the dropdown content is shown */
     .dropdown:hover .dropbtn {background-color: #FFFFFF00;}
-  }
+  
   
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
