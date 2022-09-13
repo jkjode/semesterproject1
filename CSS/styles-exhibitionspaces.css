@@ -199,7 +199,8 @@ nav {
   grid-gap: 50px;
 }
 
-.cosmos, .lunar, .skeletons, .head, .labwork2, .evolution, .cosmology, .bioandmed {
+.cosmos, .lunar, .skeletons, .head, .labwork2, .evolution, .cosmology, .bioandmed, 
+.robotarm, .roboticsai, .robot, .jarplant, .ecology, .river {
   width: 600px;
 }
 
@@ -242,6 +243,10 @@ nav {
   grid-template-columns: auto auto auto;
   grid-gap: 43px;
   overflow: hidden;
+}
+
+.green p, .green h2 {
+  color: #3F4756;
 }
 
 /* end of main*/
