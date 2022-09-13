@@ -10,6 +10,13 @@ h1 {
     color: #FFFFFF;
 }
 
+h2 {
+  font-family: Inter;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #FFFFFF;
+}
+
 p {
     font-family: Inter;
     font-size: 15px;
@@ -22,6 +29,12 @@ p {
     width: device-width;
     height: 175px;
     }
+
+.csmlogo {
+  height: 175px;
+  width: device-width;
+  z-index: 1;
+}
 
 .indexlogo {
     position: relative;
@@ -149,7 +162,7 @@ nav {
     
     /* Change the background color of the dropdown button when the dropdown content is shown */
     .dropdown:hover .dropbtn {background-color: #FFFFFF00;}
-  }
+  
   
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
@@ -198,22 +211,36 @@ nav {
   width: device-width;
 }
 
-.blue{
+.blue {
   background-color: #2A79C7;
   height: 400px;
   width: device-width;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 43px;
+}
+
+.boyhands, .forkids, .girlhands, .teacher, .classroom, .forteachers, .labworker1, .researchers, .labworker2 {
+  width: 600px;
 }
 
 .pink {
   background-color: #D14699;
   height: 400px;
   width: device-width;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 43px;
+  overflow: hidden;
 }
   
 .green {
   background-color: #74FAC8;
   height: 400px;
   width: device-width;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 43px;
 }
 
 /* end of main*/
@@ -222,6 +249,6 @@ nav {
 .footer {
   background-color: #3F4756;
   width: device-width;
-  height: 100px;
+  height: 50px;
   margin-top: 10px;
 }
