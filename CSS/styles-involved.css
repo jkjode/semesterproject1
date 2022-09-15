@@ -34,7 +34,7 @@ p {
   color: #FFFFFF;
   font-family: Inter;
   font-size: 35px;
-  margin-left: 200px;
+  margin-left: 25%;
   line-height: smaller;
   margin-top: 100px;
   }
@@ -43,8 +43,8 @@ p {
   color: #FFFFFF;
   font-family: Inter;
   font-size: 15px;
-  margin-left: 200px;
-  width: 450px;
+  margin-left: 25%;
+  width: 60%;
 }
 
 .blue{
@@ -56,7 +56,7 @@ p {
   color: #FFFFFF;
   font-family: Inter;
   font-size: 35px;
-  margin-left: 200px;
+  margin-left: 25%;
   line-height: smaller;
   margin-top: 100px;
 }
@@ -65,15 +65,32 @@ p {
   color: #FFFFFF;
   font-family: Inter;
   font-size: 15px;
-  margin-left: 200px;
-  width: 450px;
+  margin-left: 25%;
+  width: 60%;
 }
 
 .pink {
   background-color: #D14699;
   height: 500px;
 }
-  
+
+.pink h2 {
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 35px;
+  margin-left: 25%;
+  line-height: smaller;
+  margin-top: 100px;
+}
+
+.pink p {
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 15px;
+  margin-left: 25%;
+  width: 60%;
+}
+
 .green {
   background-color: #74FAC8;
   height: 500px;
@@ -84,7 +101,7 @@ p {
   color: #3F4756;
   font-size: 35px;
   line-height: smaller;
-  margin-left: 200px;
+  margin-left: 25%;
   margin-top: 100px;
 }
 
@@ -92,7 +109,7 @@ p {
   color: #3F4756;
   font-family: Inter;
   font-size: 15px;
-  margin-left: 200px;
-  width: 450px;
+  margin-left: 25%;
+  width: 60%;
 }
 
