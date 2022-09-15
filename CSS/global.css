@@ -396,7 +396,7 @@ nav {
     z-index: 1;
   }
 
-.indexlogo, .logoblue, .logolime, .logopink, .logowhite {
+  .indexlogo, .logoblue, .logolime, .logopink, .logowhite {
     position: relative;
     width: 12vw;
     margin-top: 2vh;
@@ -476,7 +476,7 @@ nav {
     font-family: Inter;
     font-weight: bold;
     margin-top: 8vh;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   
   /* The container <div> - needed to position the dropdown content */
