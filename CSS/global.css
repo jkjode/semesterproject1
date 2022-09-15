@@ -39,18 +39,21 @@
   background-color: #2A79C7;
   width: 350px;
   height: 58px; /* høyden på fargene */
+  float: right;
 }
 
 .headergreen {
   background-color: #74FAC8;
   width: 250px;
   height: 58px; /* høyden på fargene */
+  float: right;
 }
 
 .headerpink {
   background-color: #D14699;
   width: 150px;
   height: 58px; /* høyden på fargene */
+  float: right;
 }
 
 /*.decor {
