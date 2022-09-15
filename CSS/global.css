@@ -6,8 +6,13 @@
     background-color: #3F4756;
     width: device-width;
     height: 180px;
-    
-    }
+}
+
+.index {
+  width: device-width;
+  height: 180px;
+  z-index: 1;
+}
 
 .indexlogo, .logoblue, .logolime, .logopink, .logowhite {
     position: relative;
