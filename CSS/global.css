@@ -3,16 +3,11 @@
     src: url(/FONTS/Inter-VariableFont_slnt\,wght.ttf);
 }
 .header {
-    /*position: absolute;*/
     background-color: #3F4756;
     width: device-width;
     height: 175px;
     
     }
-
-/* .headerdecor {
-    display: inline-block;
-} */
 
 .indexlogo {
     position: relative;
@@ -27,6 +22,35 @@
     margin-top: -160px;
     width: 750px;
     display: inline-block;
+}
+
+/* DECOR */
+.decor {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0px; /* mellomrom mellom fargene*/ 
+  width: 350px; /* width på den lengste fargen */
+  top: 8px; /* avstand fra toppen */
+  right: 0.5%;
+}
+
+.headerblue {
+  background-color: #2A79C7;
+  width: 350px;
+  height: 58px; /* høyden på fargene */
+}
+
+.headergreen {
+  background-color: #74FAC8;
+  width: 250px;
+  height: 58px; /* høyden på fargene */
+}
+
+.headerpink {
+  background-color: #D14699;
+  width: 150px;
+  height: 58px; /* høyden på fargene */
 }
 
 /*.decor {
