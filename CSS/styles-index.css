@@ -19,7 +19,6 @@ p {
 .main {
     display: grid;
     grid-template-rows: 5;
-    border-color: orangered;
     background: url(/images/exhibition.jpg) center no-repeat;
     height: 1000px;
     width: device-width;

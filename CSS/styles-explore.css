@@ -31,41 +31,40 @@ p {
   grid-gap: 50px;
 }
 
-.grey {
-  background-color: #3F4756;
-  height: 400px;
-  width: device-width;
-}
 
 .blue {
   background-color: #2A79C7;
-  height: 400px;
-  width: device-width;
+  height: 40vh;
+  width: 100%;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 43px;
+  overflow: hidden;
   }
 
 .blue p {
   color: #FFFFFF;
+  width: 33vw;
 }
 
 .green {
   background-color: #74FAC8;
-  height: 400px;
+  height: 100%;
   width: device-width;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 43px;
+  overflow: hidden;
 }
 
 .green h2, p {
   color: #3F4756;
+  width: 33vw;
 }
 
 .pink {
   background-color: #D14699;
-  height: 400px;
+  height: 100%;
   width: device-width;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -75,9 +74,148 @@ p {
 
 .pink p {
   color: #FFFFFF;
-}
+  background-color: #D14699;
+  width: 33vw;
+  }
 
 .boyhands, .forkids, .girlhands, .teacher, .classroom, .forteachers, .labworker1, .researchers, .labworker2 {
-  width: 600px;
+height: 40vh;
 }
 
+@media (max-width: 1250px;){
+  .main {
+    margin-top: 50px;
+    width: device-width;
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    }
+ 
+  .blue {
+    background-color: #2A79C7;
+    height: 30vh;
+    width: device-width;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 20px;
+    overflow: hidden;
+    }
+  
+  .blue p {
+    color: #FFFFFF;
+    height: 30vh;
+    width: 33vw;
+    min-width: 25vw;
+  }
+  
+  .green {
+    background-color: #74FAC8;
+    height: 30vh;
+    width: device-width;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 20px;
+    overflow: hidden;
+    }
+  
+  .green h2, p {
+    color: #3F4756;
+    height: 30vh;
+    width: 33vw;
+    }
+  
+  .pink {
+    background-color: #D14699;
+    /* height: 100%; */
+    height: 30vh;
+    width: device-width;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 20px;
+    overflow: hidden;
+    }
+  
+  .pink p {
+    color: #FFFFFF;
+    background-color: #D14699;
+    width: 100%;
+    height: 30vh;
+    }
+  
+  .boyhands, .forkids, .girlhands, .teacher, .classroom, .forteachers, .labworker1, .researchers, .labworker2 {
+  width: 33%;
+  }
+  
+  .labworker2, .classroom, .girlhands {
+  display: none;
+  }
+}
+
+@media (max-width: 750px;){
+  .main {
+    margin-top: 50px;
+    width: device-width;
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    }
+ 
+  .blue {
+    background-color: #2A79C7;
+    height: 30vh;
+    width: device-width;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    overflow: hidden;
+    }
+  
+  .blue p {
+    color: #FFFFFF;
+    height: 30vh;
+    width: 33vw;
+    min-width: 25vw;
+  }
+  
+  .green {
+    background-color: #74FAC8;
+    height: 30vh;
+    width: device-width;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 10px;
+    overflow: hidden;
+    }
+  
+  .green h2, p {
+    color: #3F4756;
+    height: 30vh;
+    width: 33vw;
+    }
+  
+  .pink {
+    background-color: #D14699;
+    /* height: 100%; */
+    height: 30vh;
+    width: device-width;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 10px;
+    overflow: hidden;
+    }
+  
+  .pink p {
+    color: #FFFFFF;
+    background-color: #D14699;
+    width: 100%;
+    height: 30vh;
+    }
+  
+  .boyhands, .forkids, .girlhands, .teacher, .classroom, .forteachers, .labworker1, .researchers, .labworker2 {
+  width: 33%;
+  }
+  
+  .labworker2, .classroom, .girlhands {
+  display: none;
+  }
+}
