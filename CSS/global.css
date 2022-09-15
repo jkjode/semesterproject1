@@ -5,7 +5,7 @@
 .header {
     background-color: #3F4756;
     width: device-width;
-    height: 175px;
+    height: 180px;
     
     }
 
@@ -19,7 +19,7 @@
 .csm { 
     position: relative;
     margin-left: 2%;
-    margin-top: -160px;
+    margin-top: -140px;
     width: 750px;
     display: inline-block;
 }
@@ -30,62 +30,33 @@
   display: flex;
   flex-direction: column;
   gap: 0px; /* mellomrom mellom fargene*/ 
-  width: 350px; /* width på den lengste fargen */
+  width: 25vw; /* width på den lengste fargen */
   top: 8px; /* avstand fra toppen */
   right: 0.5%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 .headerblue {
   background-color: #2A79C7;
-  width: 350px;
-  height: 58px; /* høyden på fargene */
+  width: 100%;
+  height: 60px; /* høyden på fargene */
   float: right;
 }
 
 .headergreen {
   background-color: #74FAC8;
-  width: 250px;
-  height: 58px; /* høyden på fargene */
+  width: 75%;
+  height: 60px; /* høyden på fargene */
   float: right;
 }
 
 .headerpink {
   background-color: #D14699;
-  width: 150px;
-  height: 58px; /* høyden på fargene */
+  width: 50%;
+  height: 60px; /* høyden på fargene */
   float: right;
 }
-
-/*.decor {
-    height: 175px;
-    width: 401px;
-    background-color: #d1d1d1AA;
-    border: solid orange 1px;
-    position: absolute;
-    margin-top: -265px;
-    margin-left: 1485px;
-    z-index: 7;
-}
-
-
-.headerblue {
-    align-items: ;
-    width: 400px;
-    height: 58px;
-    color: #2A79C7;
-}
-
-.headergreen {
-    color: #74FAC8;
-    width: 350px;
-    height: 58px;
-}
-
-.headerpink {
-    color: #D14699;
-    width: 300px;
-    height: 58px;
-    }*/
 
 /* NAV */
 
