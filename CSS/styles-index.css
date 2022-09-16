@@ -105,35 +105,35 @@ p {
 
     .quote { 
         font-family: Inter;
-        font-size: 2.7rem;
+        font-size: 1.8rem;
         color: #3F4756;
         z-index: 1;
         margin-top: -1px;
-        margin-left: 2%;
-        
+        margin-left: 5%;
+                
     }
     
     .introduction {
-        margin-top: 12rem;
-        margin-left: 3%;
-        width: 20rem;
+        margin-top: 10rem;
+        margin-left: 10%;
+        width: 80%;
     }
     
     .blue {
         background-color: #2A79C7;
-        width: 25rem;
-        height: 44rem;
-        margin-top: 200px ;
-        margin-left: 15%;
+        width: 80%;
+        height: 55rem;
+        margin-top: 12%;
+        margin-left: 10%;
     }
     
     .white {
         background-color: #FFFFFF;
-        width: 26rem;
-        height: 4rem;
-        margin-top: -720px;
-        margin-left: 10%;
-        border: solid 3px #3F4756;
+        width: 80%;
+        height: 2.5rem;
+        margin-top: -55rem;
+        margin-left: 4%;
+        border: solid 2px #3F4756;
         padding: 1.25rem;
         }
     
