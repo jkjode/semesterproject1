@@ -195,7 +195,7 @@ p {
   
   .blue p {
     color: #FFFFFF;
-    height: 30vh;
+    height: fit-content;
     width: 80%;
     margin-left: 10%;
     min-width: 25vw;
@@ -217,11 +217,11 @@ p {
     }
   
   .green p {
-    height: 30vh;
+    height: fit-content;
     width: 80%;
     margin-left: 10%;
     min-width: 25vw;
-    margin-top: -30%;
+    margin-top: 10%;
     }
 
   .green h2 {

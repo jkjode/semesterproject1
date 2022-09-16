@@ -31,9 +31,10 @@ p {
   grid-gap: 50px;
 }
 
-.cosmos, .lunar, .skeletons, .head, .labwork2, .evolution, .cosmology, .bioandmed, 
-.robotarm, .roboticsai, .robot, .jarplant, .ecology, .river {
-  width: 600px;
+.imageleft, .imageright {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .grey {
@@ -78,4 +79,229 @@ p {
 
 .green p, .green h2 {
   color: #3F4756;
+}
+
+/* Smaller devices/tablets */  
+
+@media (max-width: 1200px){
+  .main {
+    margin-top: 50px;
+    width: device-width;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+    }
+ 
+  .blue {
+    background-color: #2A79C7;
+    height: fit-content;
+    width: device-width;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    overflow: hidden;
+    }
+  
+  .blue p {
+    color: #FFFFFF;
+    height: fit-content;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 15%;
+    padding-bottom: 10%;
+    min-width: 25vw;
+  }
+
+  h2 {
+    margin-left: 5%;
+  }
+  .grey {
+    background-color: #3F4756;
+    height: 30vh;
+    width: device-width;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 20px;
+    overflow: hidden;
+    }
+  
+  .grey p {
+    color: #FFFFFF;
+    height: fit-content;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 15%;
+    padding-bottom: 10%;
+    min-width: 25vw;
+    }
+
+  .green {
+    background-color: #74FAC8;
+    height: 30vh;
+    width: device-width;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 20px;
+    overflow: hidden;
+    }
+  
+  .green p {
+    color: #3F4756;
+    height: fit-content;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 15%;
+    padding-bottom: 10%;
+    min-width: 25vw;
+    }
+
+   .pink {
+    background-color: #D14699;
+    /* height: 100%; */
+    height: 30vh;
+    width: device-width;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 20px;
+    overflow: hidden;
+    }
+  
+  .pink p {
+    color: #FFFFFF;
+    background-color: #D14699;
+    height: fit-content;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 15%;
+    padding-bottom: 10%;
+    min-width: 25vw;
+    }
+  
+  .imageleft {
+  width: 100%;
+  }
+  
+  .imageright {
+  display: none;
+  }
+}
+
+/* Smallest devices/phones */
+
+@media (max-width: 750px){
+  .main {
+    margin-top: 10px;
+    width: device-width;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    }
+ 
+  .blue {
+    background-color: #2A79C7;
+    height: fit-content;
+    width: device-width;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    overflow: hidden;
+    padding-bottom: 10%;
+    }
+  
+  .blue p {
+    color: #FFFFFF;
+    height: fit-content;
+    width: 80%;
+    margin-left: 10%;
+    min-width: 25vw;
+  }
+
+  .blue h2 {
+    margin-left: 10%;
+  }
+
+  .grey {
+    background-color: #3F4756;
+    height: fit-content;
+    width: device-width;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    overflow: hidden;
+    padding-bottom: 10%;
+    }
+  
+  .grey p {
+    color: #FFFFFF;
+    height: fit-content;
+    width: 80%;
+    margin-left: 10%;
+    min-width: 25vw;
+  }
+
+  .grey h2 {
+    margin-left: 10%;
+  }
+  
+  .green {
+    background-color: #74FAC8;
+    height: fit-content;
+    width: device-width;
+    display: grid;
+    grid-template-columns: auto ;
+    grid-gap: 10px;
+    overflow: hidden;
+    /* padding-bottom: 10%; */
+    }
+  
+  .green p {
+    height: fit-content;
+    width: 80%;
+    margin-left: 10%;
+    min-width: 25vw;
+    margin-top: 10%;
+    }
+
+  .green h2 {
+    margin-left: 10%;
+    width: 70%;
+    }
+  
+  
+  .pink {
+    background-color: #D14699;
+    height: fit-content;
+    width: device-width;
+    display: grid;
+    grid-template-columns: auto ;
+    grid-gap: 10px;
+    overflow: hidden;
+    }
+  
+  .pink p {
+    color: #FFFFFF;
+    background-color: #D14699;
+    width: 80%;
+    height: fit-content;
+    margin-left: 10%;
+    }
+  
+  .pink h2 {
+    margin-left: 10%;
+    width: 50%;
+  }
+
+  .textcenter {
+    height: fit-content;
+  }
+
+  .imageleft {
+  /* width: 33%; */
+  /* display: inline-block; */
+  }
+  
+  .imageright {
+  display: none;
+  visibility: hidden;
+  }
 }
