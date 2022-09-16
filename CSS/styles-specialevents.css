@@ -130,11 +130,7 @@ width: 60%;
   }
 
   .grey {
-    max-height: 60%;
-  }
-
-  .blue {
-    margin-top: -55%;
+    display: none;
   }
 
   .blue, .green, .pink, .grey {
