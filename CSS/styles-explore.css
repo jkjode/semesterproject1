@@ -78,17 +78,21 @@ p {
   width: 33vw;
   }
 
-.boyhands, .forkids, .girlhands, .teacher, .classroom, .forteachers, .labworker1, .researchers, .labworker2 {
+.imageleft, .imageright {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
 
-@media (max-width: 1250px;){
+
+/* Smaller devices/tablets */  
+
+@media (max-width: 1200px){
   .main {
     margin-top: 50px;
     width: device-width;
     display: grid;
-    grid-template-rows: auto;
+    grid-template-columns: auto;
     grid-gap: 20px;
     }
  
@@ -97,7 +101,7 @@ p {
     height: 30vh;
     width: device-width;
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
     grid-gap: 20px;
     overflow: hidden;
     }
@@ -107,6 +111,7 @@ p {
     height: 30vh;
     width: 33vw;
     min-width: 25vw;
+    display: inline-block;
   }
   
   .green {
@@ -123,6 +128,7 @@ p {
     color: #3F4756;
     height: 30vh;
     width: 33vw;
+    display: inline-block;
     }
   
   .pink {
@@ -141,66 +147,82 @@ p {
     background-color: #D14699;
     width: 100%;
     height: 30vh;
+    display: inline-block;
     }
   
-  .boyhands, .forkids, .girlhands, .teacher, .classroom, .forteachers, .labworker1, .researchers, .labworker2 {
-  width: 33%;
+  .imageleft {
+  width: 100%;
   }
   
-  .labworker2, .classroom, .girlhands {
+  .imageright {
   display: none;
   }
 }
 
-@media (max-width: 750px;){
+/* Smallest devices/phones */
+
+@media (max-width: 750px){
   .main {
-    margin-top: 50px;
+    margin-top: 10px;
     width: device-width;
     display: grid;
-    grid-template-rows: auto;
-    grid-gap: 20px;
+    grid-template-columns: auto;
+    grid-gap: 10px;
     }
  
   .blue {
     background-color: #2A79C7;
-    height: 30vh;
+    height: fit-content;
     width: device-width;
     display: grid;
     grid-template-columns: auto;
     grid-gap: 10px;
     overflow: hidden;
+    padding-bottom: 10%;
     }
   
   .blue p {
     color: #FFFFFF;
     height: 30vh;
-    width: 33vw;
+    width: 80%;
+    margin-left: 10%;
     min-width: 25vw;
+  }
+
+  .blue h2 {
+    margin-left: 10%;
   }
   
   .green {
     background-color: #74FAC8;
-    height: 30vh;
+    height: fit-content;
     width: device-width;
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto ;
     grid-gap: 10px;
     overflow: hidden;
+    padding-bottom: 10%;
     }
   
-  .green h2, p {
-    color: #3F4756;
+  .green p {
     height: 30vh;
-    width: 33vw;
+    width: 80%;
+    margin-left: 10%;
+    min-width: 25vw;
+    margin-top: -30%;
     }
+
+  .green h2 {
+    margin-left: 10%;
+    }
+  
   
   .pink {
     background-color: #D14699;
-    /* height: 100%; */
-    height: 30vh;
+    height: fit-content;
     width: device-width;
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto ;
     grid-gap: 10px;
     overflow: hidden;
     }
@@ -208,15 +230,25 @@ p {
   .pink p {
     color: #FFFFFF;
     background-color: #D14699;
-    width: 100%;
+    width: 80%;
     height: 30vh;
+    margin-left: 10%;
     }
   
-  .boyhands, .forkids, .girlhands, .teacher, .classroom, .forteachers, .labworker1, .researchers, .labworker2 {
-  width: 33%;
+  .pink h2 {
+    margin-left: 10%;
+  }
+  .textcenter {
+    height: fit-content;
+  }
+
+  .imageleft {
+  /* width: 33%; */
+  /* display: inline-block; */
   }
   
-  .labworker2, .classroom, .girlhands {
+  .imageright {
   display: none;
+  visibility: hidden;
   }
 }

@@ -88,6 +88,7 @@
   transform: scaleX(-1);
 
 }
+
 /* NAV */
 
 nav {
@@ -278,6 +279,18 @@ nav {
   height: 60px; /* høyden på fargene */
   float: right;
 }
+
+.headerpink h2 {
+  font-family: Inter;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 5%;
+  margin-right: 20%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
 
 /* NAV */
 
@@ -473,6 +486,17 @@ nav {
   width: 50%;
   height: 34px; /* høyden på fargene */
   float: right;
+}
+
+.headerpink h2 {
+  font-family: Inter;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-right: 20%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 /* NAV */
