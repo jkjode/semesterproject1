@@ -99,6 +99,31 @@ p {
     
 }
 
+/* intermediate special query */
+
+@media (max-width:950px){
+
+    .white {
+        background-color: #FFFFFF;
+        width: 80%;
+        height: 5.5rem;
+        margin-top: -720px;
+        margin-left: 10%;
+        border: solid 3px #3F4756;
+        padding: 1.25rem;
+        }
+    
+    .quote {
+        font-family: Inter;
+        font-size: 4rem;
+        color: #3F4756;
+        z-index: 1;
+        margin-top: -1px;
+        margin-left: 2rem;
+    }
+
+}
+
 /* @media small devices/phones */
 
 @media (max-width:750px) {
