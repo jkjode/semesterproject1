@@ -21,40 +21,120 @@ p {
     grid-template-rows: 5;
     background: url(/images/exhibition.jpg) center no-repeat;
     object-fit: cover;
-    height: 1000px;
+    height: 63rem;
     width: device-width;
     }
 
 .quote { 
     font-family: Inter;
-    font-size: 80px;
+    font-size: 5rem;
     color: #3F4756;
     z-index: 1;
     margin-top: -1px;
-    margin-left: 30px;
+    margin-left: 1rem;
     
 }
 
 .introduction {
-    margin-top: 190px;
-    margin-left: 60px;
+    margin-top: 14rem;
+    margin-left: 3.75rem;
     width: 450px;
 }
 
 .blue {
     background-color: #2A79C7;
-    width: 585px;
-    height: 700px;
+    width: 36rem;
+    height: 44rem;
     margin-top: 200px ;
     margin-left: 30%;
 }
 
 .white {
     background-color: #FFFFFF;
-    width: 750px;
-    height: 105px;
+    width: 47rem;
+    height: 6.5rem;
     margin-top: -720px;
     margin-left: 25%;
     border: solid 3px #3F4756;
-    padding: 20px;
+    padding: 1.25rem;
     }
+
+/* @media Tablets */
+
+@media (max-width:1200px) {
+
+    .quote { 
+        font-family: Inter;
+        font-size: 5rem;
+        color: #3F4756;
+        z-index: 1;
+        margin-top: -1px;
+        margin-left: 2rem;
+        
+    }
+    
+    .introduction {
+        margin-top: 12rem;
+        margin-left: 60px;
+        width: 450px;
+    }
+    
+    .blue {
+        background-color: #2A79C7;
+        width: 36rem;
+        height: 44rem;
+        margin-top: 200px ;
+        margin-left: 15%;
+    }
+    
+    .white {
+        background-color: #FFFFFF;
+        width: 47rem;
+        height: 6.5rem;
+        margin-top: -720px;
+        margin-left: 10%;
+        border: solid 3px #3F4756;
+        padding: 1.25rem;
+        }
+    
+}
+
+/* @media small devices/phones */
+
+@media (max-width:1200px) {
+
+    .quote { 
+        font-family: Inter;
+        font-size: 3rem;
+        color: #3F4756;
+        z-index: 1;
+        margin-top: -1px;
+        margin-left: 2rem;
+        
+    }
+    
+    .introduction {
+        margin-top: 12rem;
+        margin-left: 3rem;
+        width: 20rem;
+    }
+    
+    .blue {
+        background-color: #2A79C7;
+        width: 25rem;
+        height: 44rem;
+        margin-top: 200px ;
+        margin-left: 15%;
+    }
+    
+    .white {
+        background-color: #FFFFFF;
+        width: 35rem;
+        height: 4rem;
+        margin-top: -720px;
+        margin-left: 10%;
+        border: solid 3px #3F4756;
+        padding: 1.25rem;
+        }
+    
+}
