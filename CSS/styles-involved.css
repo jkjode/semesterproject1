@@ -113,3 +113,38 @@ p {
   width: 60%;
 }
 
+/* smaller devices/tablets */
+
+@media (max-width: 1200px) {
+  h2 {
+    font-size: 25px;
+  }
+}
+
+/* smaller devices/phones */
+
+@media (max-width: 800px) {
+
+  .main {
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+  }
+
+  .blue, .green, .pink, .grey {
+    height: fit-content;
+    padding-bottom: 10%;
+  }
+
+  .pink {
+    display: none;
+  }
+
+  h2, p {
+    height: fit-content;
+    max-width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+  } 
+
+}

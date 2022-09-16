@@ -45,6 +45,7 @@ p {
 .blue p {
   color: #FFFFFF;
   width: 33vw;
+  padding-bottom: 10%;
 }
 
 .green {
@@ -57,9 +58,14 @@ p {
   overflow: hidden;
 }
 
-.green h2, p {
+.green p {
   color: #3F4756;
   width: 33vw;
+  padding-bottom: 10%;
+}
+
+.green h2 {
+  color: #3F4756;
 }
 
 .pink {
@@ -76,6 +82,7 @@ p {
   color: #FFFFFF;
   background-color: #D14699;
   width: 33vw;
+  margin-bottom: 10%;
   }
 
 .imageleft, .imageright {

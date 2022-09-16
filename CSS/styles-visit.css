@@ -125,3 +125,27 @@ p {
 .toph3 {
   margin-top: 115px;
 }
+
+/* smaller devices/phones */
+
+@media (max-width: 800px) {
+
+  .main {
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+  }
+
+  .blue, .green, .pink, .grey {
+    height: fit-content;
+    padding-bottom: 10%;
+  }
+
+  h2, p {
+    height: fit-content;
+    max-width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+  } 
+
+}

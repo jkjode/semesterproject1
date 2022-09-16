@@ -119,3 +119,34 @@ margin-left: 25%;
 width: 60%;
 }
 
+/* smaller devices/phones */
+
+@media (max-width: 800px) {
+
+  .main {
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+  }
+
+  .grey {
+    max-height: 60%;
+  }
+
+  .blue {
+    margin-top: -55%;
+  }
+
+  .blue, .green, .pink, .grey {
+    height: fit-content;
+    padding-bottom: 10%;
+  }
+
+  h2, p {
+    height: fit-content;
+    max-width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+  } 
+
+}
