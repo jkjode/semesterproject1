@@ -51,7 +51,8 @@
   gap: 0px; /* mellomrom mellom fargene*/ 
   width: 25vw; /* width på den lengste fargen */
   top: 8px; /* avstand fra toppen */
-  right: 0.5%;
+  right: 1.5%;
+  /* margin-right: 1.5vw; */
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
@@ -442,7 +443,7 @@ nav {
     position: relative;
     margin-left: 2%;
     margin-top: -140px;
-    width: 750px;
+    width: 40vw;
     display: inline-block;
 }
 
@@ -455,6 +456,7 @@ nav {
 
 
 /* DECOR */
+
 .decor {
   position: absolute;
   display: flex;
