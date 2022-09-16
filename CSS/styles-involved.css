@@ -1,19 +1,19 @@
 @font-face {
-    font-family: Inter;
-    src: url(/FONTS/Inter-VariableFont_slnt\,wght.ttf);
+  font-family: Inter;
+  src: url(/FONTS/Inter-VariableFont_slnt\,wght.ttf);
 }
 
 h1 {
-    font-family: Inter;
-    font-size: 80px;
-    font-weight: bolder;
-    color: #FFFFFF;
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: bolder;
+  color: #FFFFFF;
 }
 
 p {
-    font-family: Inter;
-    font-size: 15px;
-    color: #FFFFFF;
+  font-family: Inter;
+  font-size: 15px;
+  color: #FFFFFF;
 }
 
 .main {
@@ -37,7 +37,7 @@ p {
   margin-left: 25%;
   line-height: smaller;
   margin-top: 100px;
-  }
+}
 
 .grey p {
   color: #FFFFFF;

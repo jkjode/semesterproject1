@@ -83,7 +83,7 @@ p {
   background-color: #D14699;
   width: 33vw;
   margin-bottom: 10%;
-  }
+}
 
 .imageleft, .imageright {
   width: 100%;
@@ -101,7 +101,7 @@ p {
     display: grid;
     grid-template-columns: auto;
     grid-gap: 20px;
-    }
+  }
  
   .blue {
     background-color: #2A79C7;
@@ -111,7 +111,7 @@ p {
     grid-template-columns: auto auto;
     grid-gap: 20px;
     overflow: hidden;
-    }
+  }
   
   .blue p {
     color: #FFFFFF;
@@ -135,7 +135,7 @@ p {
     grid-template-columns: auto auto ;
     grid-gap: 20px;
     overflow: hidden;
-    }
+  }
   
   .green p {
     color: #3F4756;
@@ -145,7 +145,7 @@ p {
     margin-right: 15%;
     padding-bottom: 10%;
     min-width: 25vw;
-    }
+  }
   
   .pink {
     background-color: #D14699;
@@ -156,7 +156,7 @@ p {
     grid-template-columns: auto auto ;
     grid-gap: 20px;
     overflow: hidden;
-    }
+  }
   
   .pink p {
     color: #FFFFFF;
@@ -167,7 +167,7 @@ p {
     margin-right: 15%;
     padding-bottom: 10%;
     min-width: 25vw;
-    }
+  }
   
   .imageleft {
   width: 100%;
@@ -187,7 +187,7 @@ p {
     display: grid;
     grid-template-columns: auto;
     grid-gap: 10px;
-    }
+  }
  
   .blue {
     background-color: #2A79C7;
@@ -198,7 +198,7 @@ p {
     grid-gap: 10px;
     overflow: hidden;
     padding-bottom: 10%;
-    }
+  }
   
   .blue p {
     color: #FFFFFF;
@@ -221,7 +221,7 @@ p {
     grid-gap: 10px;
     overflow: hidden;
     padding-bottom: 10%;
-    }
+  }
   
   .green p {
     height: fit-content;
@@ -229,11 +229,11 @@ p {
     margin-left: 10%;
     min-width: 25vw;
     margin-top: 10%;
-    }
+  }
 
   .green h2 {
     margin-left: 10%;
-    }
+  }
   
   
   .pink {
@@ -244,7 +244,7 @@ p {
     grid-template-columns: auto ;
     grid-gap: 10px;
     overflow: hidden;
-    }
+  }
   
   .pink p {
     color: #FFFFFF;
@@ -252,20 +252,16 @@ p {
     width: 80%;
     height: 30vh;
     margin-left: 10%;
-    }
+  }
   
   .pink h2 {
     margin-left: 10%;
   }
+  
   .textcenter {
     height: fit-content;
   }
 
-  .imageleft {
-  /* width: 33%; */
-  /* display: inline-block; */
-  }
-  
   .imageright {
   display: none;
   visibility: hidden;

@@ -23,7 +23,7 @@ p {
     object-fit: cover;
     height: 63rem;
     width: device-width;
-    }
+}
 
 .quote { 
     font-family: Inter;
@@ -57,7 +57,7 @@ p {
     margin-left: 25%;
     border: solid 3px #3F4756;
     padding: 1.25rem;
-    }
+}
 
 /* @media Tablets */
 
@@ -95,7 +95,7 @@ p {
         margin-left: 10%;
         border: solid 3px #3F4756;
         padding: 1.25rem;
-        }
+    }
     
 }
 
@@ -134,8 +134,7 @@ p {
         color: #3F4756;
         z-index: 1;
         margin-top: -1px;
-        margin-left: 5%;
-                
+        margin-left: 5%;                
     }
     
     .introduction {

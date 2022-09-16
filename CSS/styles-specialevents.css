@@ -17,34 +17,34 @@ p {
 }
 
 .main {
-margin-top: 20px;
-width: device-width;
-display: grid;
-grid-template-rows: auto auto;
-grid-template-columns: auto auto;
-grid-gap: 20px;
+  margin-top: 20px;
+  width: device-width;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
 }
 
 .grey {
-background-color: #3F4756;
-height: 500px;
+  background-color: #3F4756;
+  height: 500px;
 }
 
 .grey h2 {
-color: #FFFFFF;
-font-family: Inter;
-font-size: 35px;
-margin-left: 25%;
-line-height: smaller;
-margin-top: 100px;
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 35px;
+  margin-left: 25%;
+  line-height: smaller;
+  margin-top: 100px;
 }
 
 .grey p {
-color: #FFFFFF;
-font-family: Inter;
-font-size: 15px;
-margin-left: 25%;
-width: 60%;
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 15px;
+  margin-left: 25%;
+  width: 60%;
 }
 
 #news {
@@ -54,69 +54,69 @@ width: 60%;
 }
 
 .blue{
-background-color: #2A79C7;
-height: 500px;
+  background-color: #2A79C7;
+  height: 500px;
 }
 
 .blue h2 {
-color: #FFFFFF;
-font-family: Inter;
-font-size: 35px;
-margin-left: 25%;
-line-height: smaller;
-margin-top: 100px;
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 35px;
+  margin-left: 25%;
+  line-height: smaller;
+  margin-top: 100px;
 }
 
 .blue p {
-color: #FFFFFF;
-font-family: Inter;
-font-size: 15px;
-margin-left: 25%;
-width: 60%;
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 15px;
+  margin-left: 25%;
+  width: 60%;
 }
 
 .pink {
-background-color: #D14699;
-height: 500px;
+  background-color: #D14699;
+  height: 500px;
 }
 
 .pink h2 {
   color: #FFFFFF;
-font-family: Inter;
-font-size: 35px;
-margin-left: 25%;
-line-height: smaller;
-margin-top: 100px;
+  font-family: Inter;
+  font-size: 35px;
+  margin-left: 25%;
+  line-height: smaller;
+  margin-top: 100px;
 }
 
 .pink p {
   color: #FFFFFF;
-font-family: Inter;
-font-size: 15px;
-margin-left: 25%;
-width: 60%;
+  font-family: Inter;
+  font-size: 15px;
+  margin-left: 25%;
+  width: 60%;
 }
 
 .green {
-background-color: #74FAC8;
-height: 500px;
+  background-color: #74FAC8;
+  height: 500px;
 }
 
 .green h2 {
-font-family: Inter;
-color: #3F4756;
-font-size: 35px;
-line-height: smaller;
-margin-left: 25%;
-margin-top: 100px;
+  font-family: Inter;
+  color: #3F4756;
+  font-size: 35px;
+  line-height: smaller;
+  margin-left: 25%;
+  margin-top: 100px;
 }
 
 .green p {
-color: #3F4756;
-font-family: Inter;
-font-size: 15px;
-margin-left: 25%;
-width: 60%;
+  color: #3F4756;
+  font-family: Inter;
+  font-size: 15px;
+  margin-left: 25%;
+  width: 60%;
 }
 
 /* smaller devices/phones */
