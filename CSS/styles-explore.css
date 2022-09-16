@@ -34,7 +34,7 @@ p {
 
 .blue {
   background-color: #2A79C7;
-  height: 40vh;
+  height: 100%;
   width: 100%;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -79,8 +79,9 @@ p {
   }
 
 .boyhands, .forkids, .girlhands, .teacher, .classroom, .forteachers, .labworker1, .researchers, .labworker2 {
-height: 40vh;
-}
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 
 @media (max-width: 1250px;){
   .main {
