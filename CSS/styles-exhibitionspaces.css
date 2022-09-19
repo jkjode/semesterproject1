@@ -295,10 +295,6 @@ p {
     height: fit-content;
   }
 
-  .imageleft {
-  /* width: 33%; */
-  /* display: inline-block; */
-  }
   
   .imageright {
   display: none;
