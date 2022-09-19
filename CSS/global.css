@@ -392,7 +392,7 @@ nav {
 
 /* Extra small devices */
 
-@media  (max-width:370px){
+@media  (max-width:400px){
   .indexlogo, .logoblue, .logolime, .logopink, .logowhite {
     position: relative;
     width: 50px;
@@ -402,7 +402,7 @@ nav {
   
   .headerdecor h1{
     font-family: Inter;
-    font-size: medium;
+    font-size: 6vw;
     color: var(--whitecsm);
   }
 
