@@ -405,4 +405,13 @@ nav {
     font-size: medium;
     color: var(--whitecsm);
   }
+
+  .headerpink h2 {
+    margin-right: 10%;
+  }
+
+  .dropbtn {
+    margin-top: 31%;
+    font-size: 1.5rem;
+  }
 }
