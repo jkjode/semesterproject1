@@ -128,13 +128,18 @@ p {
 
 @media (max-width:750px) {
 
+    body {
+        width: device-width;
+    }
+    
     .quote { 
+        position: center;
         font-family: Inter;
         font-size: 1.8rem;
         color: #3F4756;
         z-index: 1;
-        margin-top: -1px;
-        margin-left: 2%;  
+        /* margin-top: -1px; */
+        margin-left: 1%;   
         white-space: nowrap;              
     }
     
@@ -154,7 +159,7 @@ p {
     
     .white {
         background-color: #FFFFFF;
-        width: 75%;
+        width: fit-content;
         height: 2.5rem;
         margin-top: -55rem;
         margin-left: 4%;
