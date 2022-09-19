@@ -387,3 +387,22 @@ nav {
   margin-top: 10px;
 }
 }
+
+
+
+/* Extra small devices */
+
+@media  (max-width:370px){
+  .indexlogo, .logoblue, .logolime, .logopink, .logowhite {
+    position: relative;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 5%;
+  }
+  
+  .headerdecor h1{
+    font-family: Inter;
+    font-size: medium;
+    color: var(--whitecsm);
+  }
+}
