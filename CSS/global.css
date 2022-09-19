@@ -282,11 +282,18 @@ nav {
 
 .indexlogo, .logoblue, .logolime, .logopink, .logowhite {
   position: relative;
-  width: 60px;
+  width: 70px;
   margin-top: 8px;
   margin-left: 5%;
 }
 
+.csm /*delete when done*/{ 
+  position: relative;
+  margin-left: 2%;
+  margin-top: -140px;
+  width: 10vw;
+  display: inline-block;
+}
 
 .headerdecor h1 {
   font-family: Inter;
