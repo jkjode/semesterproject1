@@ -207,8 +207,8 @@ nav {
   background-color: var(--greycsm);
   width: device-width;
   height: fit-content;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .footercontent {
@@ -281,13 +281,10 @@ a {
 
 /* FOOTER */
 
-.footer {
-  background-color: var(--greycsm);
-  width: device-width;
-  height: 50px;
-  margin-top: 10px;
+.footercontent {
+  margin-left: 10%;
 }
-  
+ 
 }
 
 
@@ -410,9 +407,20 @@ nav {
 .footer {
   background-color: var(--greycsm);
   width: device-width;
-  height: 50px;
-  margin-top: 10px;
+  height: fit-content;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
+
+.footercontent {
+  margin-left: 5%;
+}
+
+.footergrey {
+  display: grid;
+  grid-template-columns: auto;
+}
+
 }
 
 
@@ -442,6 +450,42 @@ nav {
     font-size: 1.5rem;
   }
 
+  /* FOOTER */
 
+  .footer {
+    background-color: var(--greycsm);
+    width: device-width;
+    height: fit-content;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+  }
+  
+  .footercontent {
+    margin-left: 5%;
+    align-content: center;
+    height: fit-content;
+  }
+  
+  .footergrey {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  
+  .footergrey p {
+    font-family: Inter;
+    font-size: 14px;
+    color: var(--whitecsm);
+    margin-left: 10px;
+    height: fit-content;
+  }
+  
+  a {
+    font-family: Inter;
+    font-size: 14px;
+    color: var(--whitecsm);
+    display: block;
+    margin: 16px 0 16px 10px;
+  }
 
 }
