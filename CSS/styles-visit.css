@@ -18,6 +18,7 @@ p {
 
 .main {
   margin-top: 20px;
+  margin-bottom: 20px;
   width: device-width;
   display: grid;
   grid-template-rows: auto auto;
