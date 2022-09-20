@@ -97,6 +97,9 @@ nav {
   z-index: 1;
 }
 
+#checkbox_toggle {
+  display: none;
+}
 
 /* Dropdown Button */
 .dropbtn {
@@ -120,21 +123,6 @@ nav {
   margin-top: 20px;
 }
 
-    /* Dropdown Button */
-.dropbtn {
-  background-color: #2A79C700;
-  color: white;
-  padding: 16px;
-  font-size: 35px;
-  border: none;
-  z-index: 1;
-}
-    
-    /* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
     
     /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
@@ -144,7 +132,7 @@ nav {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   margin-right: 100px;
-  width: 50vw;
+  width: 100%;
   text-align: right;
   margin-right: 50px;
   overflow: hidden;
@@ -154,6 +142,7 @@ nav {
     /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
+  font-family: Inter;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -167,41 +156,16 @@ nav {
     
     /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #FFFFFF00;}
-  
-  
-  /* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  width: 100%;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  text-align: right;
-  z-index: 1;
-}
-  
-  /* Links inside the dropdown */
-.dropdown-content a {
-  color: #3F4756;
-  font-family: Inter;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-  
-  /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
-
-  /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {display: block;}
-
+    
 /* end of header */
 
+
+
+
 /* FOOTER */
+
+
+
 
 .footer {
   background-color: var(--greycsm);
@@ -443,6 +407,10 @@ nav {
 
   .headerpink h2 {
     margin-right: 10%;
+  }
+
+  .dropdown-content {
+    margin-top: 25px;
   }
 
   .dropbtn {
