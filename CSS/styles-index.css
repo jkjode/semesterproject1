@@ -151,13 +151,14 @@ p {
         height: fit-content;
         margin-top: 12%;
         margin-left: 10%;
+        padding-bottom: 10%;
     }
     
     .white {
         background-color: #FFFFFF;
         width: 75vw;
         height: 10vw;
-        margin-top: -55rem;
+        margin-top: -58rem;
         margin-left: 4%;
         border: solid 2px #3F4756;
         }
