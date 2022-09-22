@@ -371,8 +371,10 @@ li {
   
   
   
-  /* Extra small devices */
+  /* Extra small devices / sub 500px */
+
   
+
 @media  (max-width:500px){
     
 .logo {
@@ -392,19 +394,10 @@ li {
     width: 85vw;
     }
     
-.headerpink h2 {
-    margin-right: 10%;
-    }
-  
 .dropdown-content {
     margin-top: 25px;
     }
   
-.dropbtn {
-    margin-top: 18%;
-    font-size: 1.5rem;
-    }
-
 label {
     margin-right: -1.5rem;
     }
@@ -417,7 +410,7 @@ label {
     height: fit-content;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-top: 160px;
+    margin-top: 20px;
     }
     
 .footercontent {

@@ -262,10 +262,44 @@ p {
   
   .textcenter {
     height: fit-content;
+    width: fit-content;
   }
 
   .imageright {
   display: none;
   visibility: hidden;
+  }
+}
+
+@media (max-width:550px) {
+
+  .blue p {
+    height: fit-content;
+    width: 80%;
+    margin-left: 10%;
+    min-width: 15vw;
+    margin-top: 10%;
+  }
+  
+  .green p {
+    height: fit-content;
+    width: 80%;
+    margin-left: 10%;
+    min-width: 15vw;
+    margin-top: 10%;
+  }
+
+  .pink p {
+    height: fit-content;
+    color: #FFFFFF;
+    background-color: #D14699;
+    width: 80%;
+    margin-left: 10%;
+    min-width: 15vw;
+    margin-top: 10%;
+  }
+
+  h2 {
+    font-size: 12vw;
   }
 }
