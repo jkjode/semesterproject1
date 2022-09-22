@@ -207,31 +207,43 @@ a {
 }
 
 #mobilenav {
-    /* display: block; */
+    display: block;
     border: orange 1px solid;
     height: 20vh;
     width: 20vw;
+    top: 125px;
+    right: 0px;
 }
 
 
 input[type="checkbox"] {
-    visibility: hidden;
+    visibility: visible;
     height: 60px;
     width: 100px;
     position: absolute;
-    top: 125px;
+    top: 400px;
     right: 0px;
     z-index: 1;
   }
   
+label {
+    width: 100px;
+    height: 60px;
+    align-self: right;
+    right: 0px;
+} 
+
+label img {
+    width: 25%;
+}
+
   input[type="checkbox"]:checked ~ ul {
     display: block;
   }
   
   .dropdown ul {
-    display: none;
-    background-color: var(--whitecsm);
-    color: var(--greycsm);
+    display: hidden;
+    background-color: orange;
     height: 300px;
     width: 100vw;
     position: relative;
@@ -239,6 +251,7 @@ input[type="checkbox"] {
     right: 0px;
     text-align: center;
     padding: 0;
+    border: purple solid 2px;
   }
   
   /* end of header */
