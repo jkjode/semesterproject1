@@ -437,6 +437,11 @@ li {
         width: 85vw;
     }
     
+    .blue {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+    }
+
     /* .headerdecor h1{
       font-family: Inter;
       font-size: 4vw;
