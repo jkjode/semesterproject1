@@ -215,7 +215,7 @@ a {
 
 
 input[type="checkbox"] {
-    visibility: hidden|visible;
+    visibility: hidden;
     height: 60px;
     width: 100px;
     position: absolute;
