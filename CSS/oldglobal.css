@@ -1,0 +1,459 @@
+@font-face {
+  font-family: Inter;
+  src: url(/FONTS/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+:root {
+  --whitecsm: #FFFFFF;  
+  --bluecsm: #2A79C7;
+  --greycsm: #3f4756;
+  --limecsm: #74FAC8;
+  --pinkcsm: #D14699;
+}
+
+.header {
+  background-color: var(--greycsm);
+  width: device-width;
+  height: 180px;
+}
+
+.index {
+  width: device-width;
+  height: 180px;
+  z-index: 1;
+}
+
+.indexlogo, .logoblue, .logolime, .logopink, .logowhite {
+  position: relative;
+  width: 130px;
+  margin-top: 15px;
+  margin-left: 12%;
+}
+
+.csm { 
+  position: relative;
+  margin-left: 2%;
+  margin-top: -140px;
+  width: 750px;
+  display: inline-block;
+}
+
+.headerdecor a {
+  width: 100vw;
+  height: 100px;
+}
+
+/* DECOR */
+.decor {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0px; /* mellomrom mellom fargene*/ 
+  width: 25vw; /* width på den lengste fargen */
+  top: 8px; /* avstand fra toppen */
+  right: 0.5%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.headerblue {
+  background-color: var(--bluecsm);
+  width: 100%;
+  height: 60px; /* høyden på fargene */
+  float: right;
+}
+
+.headergreen {
+  background-color: var(--limecsm);
+  width: 75%;
+  height: 60px; /* høyden på fargene */
+  float: right;
+}
+
+.headerpink {
+  background-color: var(--pinkcsm);
+  width: 50%;
+  height: 60px; /* høyden på fargene */
+  float: right;
+}
+
+.headerpink h2 {
+  font-family: Inter;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 5%;
+  margin-right: 40%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+/* NAV */
+
+nav {
+  height: 200px;
+  width: 100%;
+  margin-top: -135px;
+  z-index: 1;
+}
+
+#checkbox_toggle {
+  display: none;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #2A79C700;
+  color: white;
+  padding: 16px;
+  border: none;
+  width: 98vw;
+  height: 50px;
+  overflow: hidden;
+  text-align: right;
+  font-family: Inter;
+  font-weight: bold;
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: none;
+  width: -100%;
+  margin-top: 20px;
+}
+
+    
+    /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-right: 100px;
+  width: 100%;
+  text-align: right;
+  margin-right: 50px;
+  overflow: hidden;
+  z-index: 1;
+}
+    
+    /* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  font-family: Inter;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+    
+    /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+  
+    /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+    
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #FFFFFF00;}
+    
+/* end of header */
+
+
+
+
+/* FOOTER */
+
+
+
+
+.footer {
+  background-color: var(--greycsm);
+  width: device-width;
+  height: fit-content;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footercontent {
+  margin-left: 20%;
+  align-content: center;
+  height: fit-content;
+}
+
+.footergrey {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.footergrey p {
+  font-family: Inter;
+  font-size: 16px;
+  color: var(--whitecsm);
+  margin-left: 10px;
+  height: fit-content;
+}
+
+a {
+  font-family: Inter;
+  font-size: 16px;
+  color: var(--whitecsm);
+  display: block;
+  margin: 16px 0 16px 10px;
+}
+
+
+
+/* Small devices/tablets */
+
+
+
+
+@media (max-width:1250px){
+
+.csm { 
+  position: relative;
+  margin-left: 1vw;
+  width: 5vw;
+  display: inline-block;
+}
+
+.headerdecor h1 {
+  font-family: Inter;
+  font-size: 3rem;
+}
+
+/* DECOR */
+
+.headerpink h2 {
+  margin-right: 20%;
+}
+
+/* NAV */
+
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  width: 98vw;
+}
+
+.dropbtn {
+  margin-top: 4vh;
+  font-size: 1.5rem;
+}
+
+/* end of header */
+
+/* FOOTER */
+
+.footercontent {
+  margin-left: 10%;
+}
+ 
+}
+
+
+
+
+/*Smaller devices/phones */
+
+
+
+
+@media (max-width:750px){
+
+.header /*delete when done*/{
+  background-color: var(--greycsm);
+  width: device-width;
+  height: 102px;
+}
+
+.index /*delete when done*/{
+  width: device-width;
+  height: 100px;
+  z-index: 1;
+}
+
+.indexlogo, .logoblue, .logolime, .logopink, .logowhite {
+  position: relative;
+  width: 70px;
+  margin-top: 8px;
+  margin-left: 5%;
+}
+
+.csm /*delete when done*/{ 
+  position: relative;
+  margin-left: 2%;
+  margin-top: -140px;
+  width: 10vw;
+  display: inline-block;
+}
+
+.headerdecor h1 {
+  font-family: Inter;
+  font-size: 1.5em;
+  width: 20%;
+  margin-top: .5em;
+  z-index: 1;
+}
+
+
+/* DECOR */
+.decor /*delete when done*/{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0px; /* mellomrom mellom fargene*/ 
+  width: 35vw; /* width på den lengste fargen */
+  top: 8px; /* avstand fra toppen */
+  right: 0.5%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.headerblue {
+  background-color: var(--bluecsm);
+  width: 100%;
+  height: 34px; /* høyden på fargene */
+  float: right;
+}
+
+.headergreen {
+  background-color: var(--limecsm);
+  width: 75%;
+  height: 34px; /* høyden på fargene */
+  float: right;
+}
+
+.headerpink {
+  background-color: var(--pinkcsm);
+  width: 50%;
+  height: 34px; /* høyden på fargene */
+  float: right;
+}
+
+.headerpink h2 {
+  font-family: Inter;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-right: 20%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+/* NAV */
+
+nav {
+  height: 120px;
+  width: 100%;
+  margin-top: -135px;
+  z-index: 1;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  margin-top: 14%;
+  font-size: 1.5rem;
+}
+
+   
+    /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  width: 98vw;
+ }
+    
+/* end of header */
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--greycsm);
+  width: device-width;
+  height: fit-content;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footercontent {
+  margin-left: 5%;
+}
+
+.footergrey {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+}
+
+
+
+/* Extra small devices */
+
+@media  (max-width:400px){
+  .indexlogo, .logoblue, .logolime, .logopink, .logowhite {
+    position: relative;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 5%;
+  }
+  
+  .headerdecor h1{
+    font-family: Inter;
+    font-size: 6vw;
+    color: var(--whitecsm);
+  }
+
+  .headerpink h2 {
+    margin-right: 10%;
+  }
+
+  .dropdown-content {
+    margin-top: 25px;
+  }
+
+  .dropbtn {
+    margin-top: 18%;
+    font-size: 1.5rem;
+  }
+
+  /* FOOTER */
+
+  .footer {
+    background-color: var(--greycsm);
+    width: device-width;
+    height: fit-content;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+  }
+  
+  .footercontent {
+    margin-left: 5%;
+    align-content: center;
+    height: fit-content;
+  }
+  
+  .footergrey {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  
+  .footergrey p {
+    font-family: Inter;
+    font-size: 14px;
+    color: var(--whitecsm);
+    margin-left: 10px;
+    height: fit-content;
+  }
+  
+  a {
+    font-family: Inter;
+    font-size: 14px;
+    color: var(--whitecsm);
+    display: block;
+    margin: 16px 0 16px 10px;
+  }
+
+}

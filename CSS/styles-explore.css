@@ -247,11 +247,13 @@ p {
   }
   
   .pink p {
+    height: fit-content;
     color: #FFFFFF;
     background-color: #D14699;
     width: 80%;
-    height: 30vh;
     margin-left: 10%;
+    min-width: 25vw;
+    margin-top: 10%;
   }
   
   .pink h2 {

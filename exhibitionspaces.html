@@ -20,7 +20,7 @@
   <body>
     <section class="header" href="/index.html">
       <div class="headerdecor">
-        <img class="logowhite" src="/LOGO/logowhite.png" alt="logo white" />
+        <img class="logo" src="/LOGO/logowhite.png" alt="logo white" />
         <h1 class="csm">Community Science Museum</h1>
         <div class="decor">
           <div class="headerblue"></div>
@@ -28,19 +28,37 @@
           <div class="headerpink"><h2>Menu</h2></div>
         </div>
       </div>
-      <nav>
-        <div class="dropdown">
-          <button class="dropbtn"></button>
-            <div class="dropdown-content">
-              <a href="/index.html">Home</a>
-              <a href="/explore.html">Explore</a>
-              <a href="/exhibitionspaces.html">Exhibition Spaces</a>
-              <a href="/specialevents.html">Special Events & exhibitions</a>
-              <a href="/visit.html">Visit</a>
-              <a href="/involved.html">Get Involved</a>
-            </div>
+      <!-- Browser NAV -->
+      <nav id="browsernav"> 
+        <div class="menu-content">
+          <a href="/index.html">Home</a>
+          <a href="/explore.html">Explore</a>
+          <a href="/exhibitionspaces.html">Exhibition Spaces</a>
+          <a href="/specialevents.html">Special Events & exhibitions</a>
+          <a href="/visit.html">Visit</a>
+          <a href="/involved.html">Get Involved</a>
         </div>
-      </nav> 
+      </nav>  
+      <!-- END of Browser NAV -->
+      <!-- Mobile NAV -->
+      <nav id="mobilenav">
+        <div id="mobile-nav">
+          <div class="dropdown">
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle"><img src="/ICONS/hamburger.png" alt="menu icon">
+            </label>
+              <ul>
+                <a href="/index.html"><li>Home</li></a>
+                <a href="/explore.html"><li>Explore</li></a>
+                <a href="/exhibitionspaces.html"><li>Exhibition Spaces</li></a>
+                <a href="/specialevents.html"><li>Special Events & exhibitions</li></a>
+                <a href="/visit.html"><li>Visit</li></a>
+                <a href="/involved.html"><li>Get Involved</li></a>
+              </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- END of Mobile NAV -->
       </div>  
     </section>
     <section class="main">
