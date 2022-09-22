@@ -17,7 +17,8 @@ p {
 }
 
 .main {
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   width: device-width;
   display: grid;
   grid-template-rows: auto auto;

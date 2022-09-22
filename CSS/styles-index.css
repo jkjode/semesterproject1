@@ -23,6 +23,7 @@ p {
     object-fit: cover;
     height: 63rem;
     width: device-width;
+    margin-top: 40px;
 }
 
 .quote { 
