@@ -182,14 +182,16 @@ p {
 @media (max-width:550px) {
 
     .main {
-        /* height: fit-content; */
-        
-    }
+        background: url(/images/exhibition.jpg) 200% center repeat;
+        }
+
+    
 
     .white {
         width: 70%;
         margin-left: 4vw;
-        /* position: center; */
+        margin-top: 8.5rem;
+        position: center;
     }
 
     .blue {
