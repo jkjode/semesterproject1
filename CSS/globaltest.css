@@ -221,7 +221,6 @@ input[type="checkbox"] {
     position: absolute;
     top: 125px;
     right: 0px;
-    position: center;
     z-index: 1;
   }
   
@@ -230,7 +229,7 @@ input[type="checkbox"] {
   }
   
   .dropdown ul {
-    display: hidden;
+    display: none;
     background-color: var(--primary-color);
     height: 300px;
     width: 100vw;
