@@ -47,6 +47,7 @@ p {
     height: 44rem;
     margin-top: 200px ;
     margin-left: 30%;
+    border: solid 3px var(--greycsm);
 }
 
 .white {
