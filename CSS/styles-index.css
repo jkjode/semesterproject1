@@ -106,16 +106,24 @@ p {
 
 @media (max-width:950px){
 
+    .main {
+        margin-top: 20px;
+    }
+
     .white {
         background-color: #FFFFFF;
         width: 80%;
         height: 5.5rem;
-        margin-top: -720px;
+        margin-top: -700px;
         margin-left: 10%;
         border: solid 3px #3F4756;
         padding: 1.25rem;
         }
     
+    .blue {
+        border: none;
+    }
+
     .quote {
         font-family: Inter;
         /* font-size: 4rem; */
