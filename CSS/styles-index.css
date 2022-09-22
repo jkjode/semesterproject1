@@ -19,7 +19,7 @@ p {
 .main {
     display: grid;
     grid-template-rows: 5;
-    background: url(/images/exhibition.jpg) center no-repeat;
+    background: url(/images/exhibition.jpg) center repeat-x;
     object-fit: cover;
     height: 63rem;
     width: device-width;
@@ -159,10 +159,10 @@ p {
     .white {
         position: absolute;
         background-color: #FFFFFF;
-        width: 75vw;
+        width: 70%;
         height: 10vw;
         margin-top: 12rem;
-        margin-left: 4%;
+        margin-left: 8%;
         border: solid 2px #3F4756;
     }
     
@@ -171,13 +171,19 @@ p {
 
 @media (max-width:550px) {
 
+    .main {
+        /* height: fit-content; */
+        
+    }
+
     .white {
         width: 70%;
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 4vw;
+        /* position: center; */
     }
 
     .blue {
+        margin-top: 40vh;
         height: fit-content;
         padding-bottom: 20px;
     }
