@@ -208,7 +208,6 @@ a {
 
 #mobilenav {
     display: block;
-    border: orange 1px solid;
     height: 20vh;
     width: 20vw;
     top: 125px;
@@ -217,7 +216,7 @@ a {
 
 
 input[type="checkbox"] {
-    visibility: visible;
+    visibility: hidden;
     height: 60px;
     width: 100px;
     position: absolute;
@@ -227,14 +226,13 @@ input[type="checkbox"] {
   }
   
 label {
-    width: 100px;
-    height: 60px;
-    align-self: right;
-    right: 0px;
+    position: absolute;
+    right: 1%;
+    top: 78px;
 } 
 
 label img {
-    width: 25%;
+    width: 50%;
 }
 
   input[type="checkbox"]:checked ~ ul {
@@ -242,16 +240,20 @@ label img {
   }
   
   .dropdown ul {
-    display: hidden;
+    display: none;
     background-color: orange;
-    height: 300px;
-    width: 100vw;
+    height: 220px;
+    width: 97.5vw;
     position: relative;
-    top: 43px;
+    top: 45px;
     right: 0px;
     text-align: center;
     padding: 0;
-    border: purple solid 2px;
+    margin-top: 10px;    
+  }
+
+  ul {
+    color: var(--greycsm);
   }
   
   /* end of header */
