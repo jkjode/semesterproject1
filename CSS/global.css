@@ -223,13 +223,13 @@ input[type="checkbox"] {
   
 label {
     position: absolute;
-    right: 50px;
-    top: 140px;
-    
+    right: 0px;
+    top: 130px;
+    padding-right: 10px;
 } 
 
 label img {
-    width: 50%;
+    width: 80%;
 }
 
   input[type="checkbox"]:checked ~ ul {
@@ -367,9 +367,12 @@ label img {
   /* NAV */
   
 label {
-    top: 77px;
+    top: 75px;
     margin-right: 0px;
-    
+}
+
+label img {
+  width: 50%;
 }
       
 .dropdown ul {
