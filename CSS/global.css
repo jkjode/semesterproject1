@@ -98,7 +98,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: device-width;
+    width: 100vw;
+    overflow: hidden;
     }
 
 .menu-content a {
