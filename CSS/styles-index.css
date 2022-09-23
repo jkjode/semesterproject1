@@ -1,20 +1,20 @@
 @font-face {
     font-family: Inter;
     src: url(/FONTS/Inter-VariableFont_slnt\,wght.ttf);
-}
+    }
 
 h1 {
     font-family: Inter;
     font-size: 80px;
     font-weight: bolder;
     color: #FFFFFF;
-}
+    }
 
 p {
     font-family: Inter;
     font-size: 15px;
     color: #FFFFFF;
-}
+    }
 
 .main {
     display: grid;
@@ -24,7 +24,7 @@ p {
     height: 63rem;
     width: device-width;
     margin-top: 40px;
-}
+    }
 
 .quote { 
     font-family: Inter;
@@ -33,13 +33,13 @@ p {
     z-index: 1;
     margin-top: -1px;
     margin-left: 1rem;
-}
+    }
 
 .introduction {
     margin-top: 14rem;
     margin-left: 3.75rem;
     width: 450px;
-}
+    }
 
 .blue {
     background-color: #2A79C7;
@@ -48,7 +48,7 @@ p {
     margin-top: 200px ;
     margin-left: 30%;
     border: solid 3px var(--greycsm);
-}
+    }
 
 .white {
     background-color: #FFFFFF;
@@ -60,7 +60,7 @@ p {
     padding: 1.25rem;
     display: grid;
     place-items: center;
-}
+    }
 
 /* @media Tablets */
 
@@ -73,14 +73,13 @@ p {
         z-index: 1;
         margin-top: -1px;
         margin-left: 2rem;
-        
-    }
+        }
     
     .introduction {
         margin-top: 12rem;
         margin-left: 60px;
         width: 450px;
-    }
+        }
     
     .blue {
         background-color: #2A79C7;
@@ -88,7 +87,7 @@ p {
         height: 44rem;
         margin-top: 200px ;
         margin-left: 15%;
-    }
+        }
     
     .white {
         background-color: #FFFFFF;
@@ -98,7 +97,7 @@ p {
         margin-left: 10%;
         border: solid 3px #3F4756;
         padding: 1.25rem;
-    }
+        }
     
 }
 
@@ -108,7 +107,7 @@ p {
 
     .main {
         margin-top: 20px;
-    }
+        }
 
     .white {
         background-color: #FFFFFF;
@@ -122,17 +121,16 @@ p {
     
     .blue {
         border: none;
-    }
+        }
 
     .quote {
         font-family: Inter;
-        /* font-size: 4rem; */
         font-size: 8vw;
         color: #3F4756;
         z-index: 1;
         margin-top: -1px;
         margin-left: 2rem;
-    }
+        }
 
 }
 
@@ -148,13 +146,13 @@ p {
         z-index: 1;
         white-space: nowrap;
         margin-left: 1vw;
-    }
+        }
     
     .introduction {
         margin-top: 2rem;
         margin-left: 10%;
         width: 80%;
-    }
+        }
     
     .blue {
         background-color: #2A79C7;
@@ -164,7 +162,7 @@ p {
         margin-left: 0;
         margin-right: 1px;
         padding-bottom: 10%;
-    }
+        }
     
     .white {
         position: absolute;
@@ -174,7 +172,7 @@ p {
         margin-top: 12rem;
         margin-left: 8%;
         border: solid 2px #3F4756;
-    }
+        }
     
     
 }
@@ -185,21 +183,18 @@ p {
         background: url(/images/exhibition.jpg) 200% center repeat;
         }
 
-    
-
     .white {
         width: 70%;
         margin-left: 4vw;
         margin-top: 8.5rem;
         position: center;
-    }
+        }
 
     .blue {
         margin-top: 40vh;
         height: fit-content;
         padding-bottom: 20px;
         border-top: solid 10px var(--whitecsm);
-    }
-
+        }
 
 }

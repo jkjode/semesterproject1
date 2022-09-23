@@ -1,20 +1,20 @@
 @font-face {
   font-family: Inter;
   src: url(/FONTS/Inter-VariableFont_slnt\,wght.ttf);
-}
+  }
 
 h1 {
   font-family: Inter;
   font-size: 80px;
   font-weight: bolder;
   color: #FFFFFF;
-}
+  }
 
 p {
   font-family: Inter;
   font-size: 15px;
   color: #FFFFFF;
-}
+  }
 
 .main {
   margin-top: 50px;
@@ -24,12 +24,12 @@ p {
   grid-template-rows: auto auto;
   grid-template-columns: auto auto;
   grid-gap: 20px;
-}
+  }
 
 .grey {
   background-color: #3F4756;
   height: 500px;
-}
+  }
 
 .grey h2 {
   color: #FFFFFF;
@@ -38,7 +38,7 @@ p {
   margin-left: 25%;
   line-height: smaller;
   margin-top: 100px;
-}
+  }
 
 .grey p {
   color: #FFFFFF;
@@ -46,12 +46,12 @@ p {
   font-size: 15px;
   margin-left: 25%;
   width: 60%;
-}
+  }
 
 .blue{
   background-color: #2A79C7;
   height: 500px;
-}
+  }
 
 .blue h2 {
   color: #FFFFFF;
@@ -60,7 +60,7 @@ p {
   margin-left: 25%;
   line-height: smaller;
   margin-top: 100px;
-}
+  }
 
 .blue p {
   color: #FFFFFF;
@@ -68,12 +68,12 @@ p {
   font-size: 15px;
   margin-left: 25%;
   width: 60%;
-}
+  }
 
 .pink {
   background-color: #D14699;
   height: 500px;
-}
+  }
 
 .pink h2 {
   color: #FFFFFF;
@@ -82,7 +82,7 @@ p {
   margin-left: 25%;
   line-height: smaller;
   margin-top: 100px;
-}
+  }
 
 .pink p {
   color: #FFFFFF;
@@ -90,12 +90,12 @@ p {
   font-size: 15px;
   margin-left: 25%;
   width: 60%;
-}
+  }
 
 .green {
   background-color: #74FAC8;
   height: 500px;
-}
+  }
 
 .green h2 {
   font-family: Inter;
@@ -104,7 +104,7 @@ p {
   line-height: smaller;
   margin-left: 25%;
   margin-top: 100px;
-}
+  }
 
 .green p {
   color: #3F4756;
@@ -112,14 +112,14 @@ p {
   font-size: 15px;
   margin-left: 25%;
   width: 60%;
-}
+  }
 
 /* smaller devices/tablets */
 
 @media (max-width: 1200px) {
   h2 {
     font-size: 25px;
-  }
+    }
 }
 
 /* smaller devices/phones */
@@ -130,22 +130,22 @@ p {
     grid-template-rows: auto;
     grid-template-columns: auto;
     grid-gap: 20px;
-  }
+    }
 
   .blue, .green, .pink, .grey {
     height: fit-content;
     padding-bottom: 10%;
-  }
+    }
 
   .pink {
     display: none;
-  }
+    }
 
   h2, p {
     height: fit-content;
     max-width: 90%;
     margin-left: 10%;
     margin-right: 10%;
-  } 
+    } 
 
 }

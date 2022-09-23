@@ -175,10 +175,6 @@ a {
     font-size: 3rem;
     }
     
-.headerpink h2 {
-    margin-right: 15%;
-    margin-top: 10px;
-    }
   
 
   /* NAV */
@@ -252,7 +248,6 @@ label img {
     margin-top: 15px;
     }
 
-  /* end of header */
   
   /* FOOTER */
   
@@ -264,21 +259,14 @@ label img {
   
   
 
-
 /*Smaller devices/phones */
   
 @media (max-width:750px){
   
-.header /*delete when done*/{
+.header {
     background-color: var(--greycsm);
     width: device-width;
     height: 102px;
-    }
-  
-.index /*delete when done*/{
-    width: device-width;
-    height: 100px;
-    z-index: 1;
     }
   
 .logo {
@@ -289,7 +277,7 @@ label img {
     margin-left: 5%;
     }
   
-.csm /*delete when done*/{ 
+.csm { 
     position: relative;
     margin-left: 2%;
     margin-top: -140px;
@@ -328,7 +316,7 @@ label img {
   /* NAV */
   
 
-  label {
+label {
     top: 75px;
     margin-right: 0px;
     }
@@ -353,9 +341,9 @@ li {
     }
 
 
-  /* end of header */
   
   /* FOOTER */
+  
   
 .footer {
     background-color: var(--greycsm);

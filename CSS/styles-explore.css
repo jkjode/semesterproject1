@@ -1,27 +1,27 @@
 @font-face {
     font-family: Inter;
     src: url(/FONTS/Inter-VariableFont_slnt\,wght.ttf);
-}
+    }
 
 h1 {
     font-family: Inter;
     font-size: 80px;
     font-weight: bolder;
     color: #FFFFFF;
-}
+    }
 
 h2 {
   font-family: Inter;
   font-size: 50px;
   font-weight: bolder;
   color: #FFFFFF;
-}
+  }
 
 p {
-    font-family: Inter;
-    font-size: 15px;
-    color: #FFFFFF;
-}
+  font-family: Inter;
+  font-size: 15px;
+  color: #FFFFFF;
+  }
 
 .main {
   margin-top: 50px;
@@ -29,7 +29,7 @@ p {
   display: grid;
   grid-template-rows: auto auto auto auto;
   grid-gap: 50px;
-}
+  }
 
 
 .blue {
@@ -46,7 +46,7 @@ p {
   color: #FFFFFF;
   width: 33vw;
   padding-bottom: 10%;
-}
+  }
 
 .green {
   background-color: #74FAC8;
@@ -56,17 +56,17 @@ p {
   grid-template-columns: auto auto auto;
   grid-gap: 43px;
   overflow: hidden;
-}
+  } 
 
 .green p {
   color: #3F4756;
   width: 33vw;
   padding-bottom: 10%;
-}
+  }
 
 .green h2 {
   color: #3F4756;
-}
+  }
 
 .pink {
   background-color: #D14699;
@@ -76,20 +76,20 @@ p {
   grid-template-columns: auto auto auto;
   grid-gap: 43px;
   overflow: hidden;
-}
+  }
 
 .pink p {
   color: #FFFFFF;
   background-color: #D14699;
   width: 33vw;
   margin-bottom: 10%;
-}
+  }
 
 .imageleft, .imageright {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
+  }
 
 
 /* Smaller devices/tablets */  
@@ -101,7 +101,7 @@ p {
     display: grid;
     grid-template-columns: auto;
     grid-gap: 20px;
-  }
+    }
  
   .blue {
     background-color: #2A79C7;
@@ -111,7 +111,7 @@ p {
     grid-template-columns: auto auto;
     grid-gap: 20px;
     overflow: hidden;
-  }
+    }
   
   .blue p {
     color: #FFFFFF;
@@ -121,11 +121,11 @@ p {
     margin-right: 15%;
     padding-bottom: 10%;
     min-width: 25vw;
-  }
+    }
 
   h2 {
     margin-left: 5%;
-  }
+    }
   
   .green {
     background-color: #74FAC8;
@@ -135,7 +135,7 @@ p {
     grid-template-columns: auto auto ;
     grid-gap: 20px;
     overflow: hidden;
-  }
+    }
   
   .green p {
     color: #3F4756;
@@ -145,18 +145,17 @@ p {
     margin-right: 15%;
     padding-bottom: 10%;
     min-width: 25vw;
-  }
+    }
   
   .pink {
     background-color: #D14699;
-    /* height: 100%; */
     height: 30vh;
     width: device-width;
     display: grid;
     grid-template-columns: auto auto ;
     grid-gap: 20px;
     overflow: hidden;
-  }
+    }
   
   .pink p {
     color: #FFFFFF;
@@ -167,15 +166,15 @@ p {
     margin-right: 15%;
     padding-bottom: 10%;
     min-width: 25vw;
-  }
+    }
   
   .imageleft {
-  width: 100%;
-  }
+    width: 100%;
+    }
   
   .imageright {
-  display: none;
-  }
+    display: none;
+    }
 }
 
 /* Smallest devices/phones */
@@ -187,7 +186,7 @@ p {
     display: grid;
     grid-template-columns: auto;
     grid-gap: 10px;
-  }
+    }
  
   .blue {
     background-color: #2A79C7;
@@ -198,7 +197,7 @@ p {
     grid-gap: 10px;
     overflow: hidden;
     padding-bottom: 10%;
-  }
+    }
   
   .blue p {
     color: #FFFFFF;
@@ -206,11 +205,11 @@ p {
     width: 80%;
     margin-left: 10%;
     min-width: 25vw;
-  }
+    }
 
   .blue h2 {
     margin-left: 10%;
-  }
+    }
   
   .green {
     background-color: #74FAC8;
@@ -221,7 +220,7 @@ p {
     grid-gap: 10px;
     overflow: hidden;
     padding-bottom: 10%;
-  }
+    }
   
   .green p {
     height: fit-content;
@@ -229,11 +228,11 @@ p {
     margin-left: 10%;
     min-width: 25vw;
     margin-top: 10%;
-  }
+    }
 
   .green h2 {
     margin-left: 10%;
-  }
+    }
   
   
   .pink {
@@ -244,7 +243,7 @@ p {
     grid-template-columns: auto ;
     grid-gap: 10px;
     overflow: hidden;
-  }
+    }
   
   .pink p {
     height: fit-content;
@@ -254,21 +253,21 @@ p {
     margin-left: 10%;
     min-width: 25vw;
     margin-top: 10%;
-  }
+    }
   
   .pink h2 {
     margin-left: 10%;
-  }
+    }
   
   .textcenter {
     height: fit-content;
     width: fit-content;
-  }
+    }
 
   .imageright {
-  display: none;
-  visibility: hidden;
-  }
+    display: none;
+    visibility: hidden;
+    }
 }
 
 @media (max-width:550px) {
@@ -279,7 +278,7 @@ p {
     margin-left: 10%;
     min-width: 15vw;
     margin-top: 10%;
-  }
+    }
   
   .green p {
     height: fit-content;
@@ -287,7 +286,7 @@ p {
     margin-left: 10%;
     min-width: 15vw;
     margin-top: 10%;
-  }
+    }
 
   .pink p {
     height: fit-content;
@@ -297,9 +296,9 @@ p {
     margin-left: 10%;
     min-width: 15vw;
     margin-top: 10%;
-  }
+    }
 
   h2 {
     font-size: 12vw;
-  }
+    }
 }

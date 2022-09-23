@@ -1,27 +1,27 @@
 @font-face {
-    font-family: Inter;
-    src: url(/FONTS/Inter-VariableFont_slnt\,wght.ttf);
-}
+  font-family: Inter;
+  src: url(/FONTS/Inter-VariableFont_slnt\,wght.ttf);
+  }
 
 h1 {
-    font-family: Inter;
-    font-size: 80px;
-    font-weight: bolder;
-    color: #FFFFFF;
-}
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  }
 
 h2 {
   font-family: Inter;
   font-size: 50px;
   font-weight: bolder;
   color: #FFFFFF;
-}
+  }
 
 p {
-    font-family: Inter;
-    font-size: 15px;
-    color: #FFFFFF;
-}
+  font-family: Inter;
+  font-size: 15px;
+  color: #FFFFFF;
+  }
 
 .main {
   margin-top: 50px;
@@ -30,13 +30,13 @@ p {
   display: grid;
   grid-template-rows: auto auto auto auto auto;
   grid-gap: 50px;
-}
+  }
 
 .imageleft, .imageright {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
+  }
 
 .grey {
   background-color: #3F4756;
@@ -46,7 +46,7 @@ p {
   grid-template-columns: auto auto auto;
   grid-gap: 43px;
   overflow: hidden;
-}
+  }
 
 .blue{
   background-color: #2A79C7;
@@ -56,7 +56,7 @@ p {
   grid-template-columns: auto auto auto;
   grid-gap: 43px;
   overflow: hidden;
-}
+  }
 
 .pink {
   background-color: #D14699;
@@ -66,7 +66,7 @@ p {
   grid-template-columns: auto auto auto;
   grid-gap: 43px;
   overflow: hidden;
-}
+  }
   
 .green {
   background-color: #74FAC8;
@@ -76,11 +76,11 @@ p {
   grid-template-columns: auto auto auto;
   grid-gap: 43px;
   overflow: hidden;
-}
+  }
 
 .green p, .green h2 {
   color: #3F4756;
-}
+  }
 
 /* Smaller devices/tablets */  
 
@@ -111,11 +111,12 @@ p {
     margin-right: 15%;
     padding-bottom: 10%;
     min-width: 25vw;
-  }
+    }
 
   h2 {
     margin-left: 5%;
-  }
+    }
+  
   .grey {
     background-color: #3F4756;
     height: 30vh;
@@ -158,7 +159,6 @@ p {
 
    .pink {
     background-color: #D14699;
-    /* height: 100%; */
     height: 30vh;
     width: device-width;
     display: grid;
@@ -179,12 +179,13 @@ p {
     }
   
   .imageleft {
-  width: 100%;
-  }
+    width: 100%;
+    }
   
   .imageright {
-  display: none;
-  }
+    display: none;
+    }
+
 }
 
 /* Smallest devices/phones */
@@ -215,11 +216,11 @@ p {
     width: 80%;
     margin-left: 10%;
     min-width: 25vw;
-  }
+    }
 
   .blue h2 {
     margin-left: 10%;
-  }
+    }
 
   .grey {
     background-color: #3F4756;
@@ -238,11 +239,11 @@ p {
     width: 80%;
     margin-left: 10%;
     min-width: 25vw;
-  }
+    }
 
   .grey h2 {
     margin-left: 10%;
-  }
+    }
   
   .green {
     background-color: #74FAC8;
@@ -252,7 +253,6 @@ p {
     grid-template-columns: auto ;
     grid-gap: 10px;
     overflow: hidden;
-    /* padding-bottom: 10%; */
     }
   
   .green p {
@@ -267,8 +267,7 @@ p {
     margin-left: 10%;
     width: 70%;
     }
-  
-  
+    
   .pink {
     background-color: #D14699;
     height: fit-content;
@@ -290,15 +289,14 @@ p {
   .pink h2 {
     margin-left: 10%;
     width: 50%;
-  }
+    }
 
   .textcenter {
     height: fit-content;
-  }
+    }
 
-  
   .imageright {
-  display: none;
-  visibility: hidden;
-  }
+    display: none;
+    visibility: hidden;
+    }
 }
