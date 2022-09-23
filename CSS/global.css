@@ -206,9 +206,14 @@ input[type="checkbox"] {
   
 label {
     position: absolute;
+    width: 70px;
     right: 0px;
     top: 130px;
     padding-right: 10px;
+    border: solid orange 2px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
     } 
 
 label img {
