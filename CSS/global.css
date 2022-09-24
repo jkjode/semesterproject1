@@ -92,6 +92,7 @@
     height: 0px;
     width: 100vw;
     background-color: var(--whitecsm);
+    z-index: 1;
     }
 
 .menu-content {
