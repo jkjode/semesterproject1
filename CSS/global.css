@@ -209,7 +209,6 @@ label {
     right: 0px;
     top: 130px;
     padding-right: 10px;
-    border: solid orange 2px;
     display: grid;
     place-items: center;
     overflow: hidden;
@@ -410,7 +409,7 @@ label {
     }
     
 .footercontent {
-    margin-left: 5%;
+    margin-left: 10%;
     align-content: center;
     height: fit-content;
     }
