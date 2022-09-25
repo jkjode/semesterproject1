@@ -35,9 +35,9 @@
 
 .csm /*Headertitle*/{ 
     font-family: Inter;
-    font-size: 500%;
+    font-size: 450%;
     color: var(--whitecsm);
-    max-width: 40vw;
+    max-width: 50vw;
     height: 180px;
     position: center;
     margin-left: 10px;
