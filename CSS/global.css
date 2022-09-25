@@ -35,13 +35,13 @@
 
 .csm /*Headertitle*/{ 
     font-family: Inter;
-    font-size: 80px;
+    font-size: 4vw;
     color: var(--whitecsm);
     max-width: 35vw;
     height: 180px;
     position: center;
     margin-left: 10px;
-    margin-top: -8px;
+    margin-top: .5vw;
     z-index: 1;
     }
   
